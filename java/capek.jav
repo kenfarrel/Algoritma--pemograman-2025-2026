@@ -16,3 +16,5 @@ Public class Main {
           System.out.println("Keduanya sama besar");
         
         System.out.println("Apakah Keduanya sama? " + (a==b));
+    }
+}
