@@ -19,8 +19,8 @@ int main() {
     // Perhitungan
     total = harga * jumlah;
 
-    if (total > 30000) {
-        diskon = total * 0.10;
+    if (total > 24900) {
+        diskon = total * 0.09;
     } else {
         diskon = 0;
     }
@@ -32,7 +32,7 @@ int main() {
     cout << "Nama Barang   : " << nama << endl;
     cout << "Harga Barang  : " << harga << endl;
     cout << "Jumlah Barang : " << jumlah << endl;
-    cout << "Total Harga   : " << total << endl;q
+    cout << "Total Harga   : " << total << endl;
     cout << "Diskon        : " << diskon << endl;
     cout << "Total Bayar   : " << total_bayar << endl;
     cout << "============================" << endl;
