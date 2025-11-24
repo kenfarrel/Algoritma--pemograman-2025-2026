@@ -1,0 +1,20 @@
+nama = input("Masukkan nama barang:")
+harga = float(input("Masukkan harga barang: "))
+jumlah = int(input("Masukkan jumlah barang: "))
+
+total = harga * jumlah
+
+if total > 30000:
+    diskon = total * 0.10
+else:
+    diskon = 0
+total_bayar = total - diskon
+
+print("\n===== Struk Pembayaran =====")
+print(f"Nama Barang  : {nama}")
+print(f"Harga Barang : {harga}")
+print(f"Jumlah Barang: {jumlah}")
+print(f"Total Harga  : {total}")
+print(f"Diskon       : {diskon}")
+print(f"Total Bayar  : {total_bayar}")
+print("============================")
