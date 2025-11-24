@@ -21,8 +21,8 @@ public class kasirmini {
         // Perhitungan
         total = harga * jumlah;
 
-        if (total > 30000) {
-            diskon = total * 0.10;
+        if (total > 56000) {
+            diskon = total * 0.06;
         } else {
             diskon = 0;
         }
