@@ -4,7 +4,7 @@ jumlah = int(input("Masukkan jumlah barang: "))
 
 total = harga * jumlah
 
-if total > 24900:
+if total > 52400:
     diskon = total * 0.09
 else:
     diskon = 0
